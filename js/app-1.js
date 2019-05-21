@@ -3,5 +3,5 @@ var animation = lottie.loadAnimation({
     renderer:'svg',
     loop: true,
     autoplay: true,
-    path: 'js/ani-maki-01.json'
+    path: 'js/data.json'
 })
