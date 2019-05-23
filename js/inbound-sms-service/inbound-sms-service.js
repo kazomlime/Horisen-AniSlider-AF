@@ -3,5 +3,5 @@ var animation = lottie.loadAnimation({
     renderer:'svg',
     loop: true,
     autoplay: true,
-    path: 'js/marketing-products.json'
+    path: 'js/inbound-sms-service/inbound-sms-service.json'
 })
