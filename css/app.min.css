@@ -1,2 +1,2 @@
-body{margin:0}section{position:relative;max-width:1920px;margin:auto;background-size:cover}section.marketing-products{background-image:url(../js/images/marketing-products.jpg)}section.inbound-sms-service{background-image:url(../js/images/inbound-sms-service.jpg)}section.ngage{background-image:url(../js/images/ngage.jpg)}
+body{margin:0}section{position:relative;max-width:1920px;margin:auto}section img{max-width:100%;z-index:1}section svg{margin-top:-2px;display:block;max-width:100%;position:absolute;top:0;z-index:5}section .btn{fill:#00d9ff;opacity:0}section .num{opacity:0}
 /*# sourceMappingURL=app.min.css.map */

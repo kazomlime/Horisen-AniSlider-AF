@@ -7,31 +7,36 @@ section {
   position: relative;
   max-width: 1920px;
   margin: auto;
-  background-size: cover;
-  &.marketing-products {
-    background-image: url(../js/images/marketing-products.jpg);
+  // background-repeat: no-repeat;
+  // background-size: cover;
+  // &.marketing-products {
+  //   background-image: url(../js/images/marketing-products.jpg);
+  // }
+  // &.inbound-sms-service {
+  //   background-image: url(../js/images/inbound-sms-service.jpg);
+  // }
+  // &.ngage {
+  //   background-image: url(../js/images/ngage.jpg);
+  // }
+  img {
+    max-width: 100%;
+    // position: relative;
+    z-index: 1;
   }
-  &.inbound-sms-service {
-    background-image: url(../js/images/inbound-sms-service.jpg);
+  svg {
+    margin-top: -2px;
+    display: block;
+    max-width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 5;
+    // max-height: 100%;
   }
-  &.ngage {
-    background-image: url(../js/images/ngage.jpg);
+  .btn {
+    fill: $primary;
+    opacity: 0;
   }
-  // img {
-  //   max-width: 100%;
-  // }
-  // svg {
-  //   margin-top: -2px;
-  //   display: block;
-  //   max-width: 100%;
-  //   position: absolute;
-  //   max-height: 100%;
-  // }
-  // .btn {
-  //   fill: $primary;
-  //   opacity: 0;
-  // }
-  // .num {
-  //   opacity: 0;
-  // }
+  .num {
+    opacity: 0;
+  }
 }
