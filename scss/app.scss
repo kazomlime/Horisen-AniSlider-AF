@@ -9,10 +9,13 @@ section {
   margin: auto;
   background-size: cover;
   &.marketing-products {
-    background-image: url(../js/images/marketing-products.jpg)
+    background-image: url(../js/images/marketing-products.jpg);
   }
   &.inbound-sms-service {
-    background-image: url(../js/images/inbound-sms-service.jpg)
+    background-image: url(../js/images/inbound-sms-service.jpg);
+  }
+  &.ngage {
+    background-image: url(../js/images/ngage.jpg);
   }
   // img {
   //   max-width: 100%;
